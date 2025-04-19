@@ -190,3 +190,30 @@ export const featuredProducts = [
     },
 ]
 
+
+export const menu = [
+    {
+        id: 1,
+        slug: "pastas",
+        title: "italian pastas",
+        desc: "Savor the taste of perfection with our exquisite italian handmade menu.",
+        img: "/images/macncheese.jpg",
+        color: "white"
+    },
+    {
+        id: 2,
+        slug: "burgers",
+        title: "juicy burgers",
+        desc: "Burger bliss: juicy patties, bold flavors and gourmet toppings galore",
+        img: "/images/burger.jpg",
+        color: "black"
+    },
+    {
+        id: 1,
+        slug: "pizzas",
+        title: "cheesy pizzas",
+        desc: "Pizza paradise: Irresistible slices, mouthwatering toppings and cheesy perfection ",
+        img: "/images/pizza.jpg",
+        color: "white"
+    },
+]
