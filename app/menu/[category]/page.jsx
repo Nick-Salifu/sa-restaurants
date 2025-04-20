@@ -7,7 +7,7 @@ const CategoryPage = () => {
     <div className="flex flex-wrap text-blue-500">
       {
         pizzas.map((item) => (
-          <Link className="w-full h-[60vh] border-r-2 border-b-2 p-8 border-blue-500 sm:w-1/2 lg:w-1/3 flex flex-col justify-between group even:bg-gray-50" href={`/product/${item.id}`} key={item.id}>
+          <Link className="w-full h-[60vh] border-r-2 border-b-2 p-8 border-blue-500 sm:w-1/2 lg:w-1/3 flex flex-col justify-between group even:bg-gray-50" href={`/products/${item.id}`} key={item.id}>
             <div className="h-[80%] w-full flex flex-col justify-center items-center">
               <Image src={item.img} alt="products image" height={270} width={270} className="object-contain rounded-full" />
             </div>
